@@ -1,0 +1,23 @@
+{
+  "name": "vinzent-otrs",
+  "version": "0.1.0",
+  "author": "vinzent",
+  "summary": "Install + configure OTRS",
+  "license": "Apache-2.0",
+  "source": "git@github.com/vinzent/puppet-module-otrs",
+  "project_page": "https://git@github.com/vinzent/puppet-module-otrs",
+  "issues_url": "https://git@github.com/vinzent/puppet-module-otrs/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "6.0" ]
+    },
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "6.0" ]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
